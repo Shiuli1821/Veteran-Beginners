@@ -1,0 +1,12 @@
+House Prediction – Veteran Beginners
+ 
+In This application we are supposed to predict the house price based on some features by using Spark, and the same can be streamed to the Kafka server.
+So first, we start building the model by taking all the requirements and we need to apply feature engineering and plotting it through matplotlib and start applying regression and training through pyspark to it for predicting the house price and saving the file.
+Now here we start building and starting the Docker Container by using docker hub. And training the model and starting the producer for kafka ad runing those files.
+Similarly, we do also do the same for Consumer with predictor by executing docker command and Consumer file.
+We need to run Kafka Zoomkeeper and serverproperties in terminals. Such that kafka server can run without any hastle.
+In Kafka we also need to write the topics and define server as localhost:9202
+So that it can connect with the model of pyspark and they both can integrate.
+ 
+Thanks & regards,
+Vatsala Vaddiraju & Shiuli Das
